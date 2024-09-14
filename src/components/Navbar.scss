@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background: #252A2D;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 65px;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .logo img {
+    padding-top: 0.3rem;
+    width: 145px;
+  }
+  
+  .Nav-menu {
+    display: flex;
+    align-items: center;
+    padding-top: 0.8rem;
+  }
+  
+  .Nav-menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .Nav-menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .NavLink a {
+    color: #ffffff; 
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none; 
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .NavLink:hover a {
+    color: #353797;
+    cursor: pointer;
+  }
+  
+  .ButtonNav {
+    background: #352797;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none; 
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .ButtonNav a:hover {
+    color: #ffffff;
+  }
+  
+  .ButtonNav:hover {
+    color: white;
+    opacity: 0.5;
+  }
+  
+  .nav-active a {
+    color: #353797;
+  }
+  
+  // Media Queries for Mobile
+  @media (max-width: 768px) {
+    .Navbar {
+      position: absolute;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding-right: 20px;
+      padding-left: 20px;
+      height: auto;
+    }
+  
+    .logo img {
+      width: 120px;
+      padding-top: 2rem;
+    }
+  
+    .Nav-menu {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  
+      &.open {
+        display: flex;
+      }
+  
+      ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+  
+      ul li {
+        margin: 10px 0;
+      }
+  
+      .NavLink a {
+        font-size: 16px;
+      }
+  
+      .ButtonNav {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .menu-icon {
+      display: none;
+    }
+  }
+  

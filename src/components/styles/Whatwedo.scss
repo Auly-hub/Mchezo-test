@@ -1,0 +1,646 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.Slider-image .slide{
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+// .slide img{
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 10px;
+// }
+
+// .Slider-image{
+//     padding-left: 120px;
+//     padding-right: 120px;
+// }
+
+// .Slider-image .slidest{
+//     width: 550px;
+//     height: 300px;
+//     overflow: hidden;
+//     border-radius: 10px;
+// }
+
+// // .Slider-image .slidest img{
+// //     width: 100%;
+// //     height: 100%;
+// //     border-radius: 10px;
+// // }
+
+
+/* animations.css */
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .Slider-text {
+    background: #F6F4FF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Slider-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: slideUp 4s ease-in-out;
+  }
+  
+  .Slider-container h2 {
+    font-size: 18px;
+    font-family: "Manrope";
+    color: #5D5FEF;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .Slider-container h1 {
+    font-size: 35px;
+    font-family: "Manrope";
+    color: #19154E;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .Slider-container p {
+    font-size: 16px;
+    font-family: "Manrope";
+    color: #5B5E76;
+    padding-top: 0.5rem;
+    letter-spacing: 2px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+.slider-image{
+    border: solid,#F6F4FF ;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.Slider-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.what-section{
+
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.Slider-image{
+    background:#F6F4FF;
+    padding-bottom: 8rem;
+}
+
+// .sliders-frame{
+//     margin-top: 2rem;
+// }
+
+// .sliders-image{
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .image-container img{
+//     border-radius: 30px;
+//     box-shadow: -5px -15px 7px -24px rgba(0,0,0,0.75);
+//     -webkit-box-shadow: -5px -15px 7px -24px rgba(0,0,0,0.75);
+//     -moz-box-shadow: -5px -15px 7px -24px rgba(0,0,0,0.75);
+//     padding-bottom: 1rem;
+
+// }
+
+.franchising-container{
+    display: flex;
+    justify-content: space-between;
+    background:#F6F4FF;
+    // padding-top: rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5rem;
+
+    @keyframes slideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+}
+
+.franchising_text{
+    padding-top: 3rem;
+    // text-align: left;
+    font-size: 22px;
+    animation: slideUp 4s ease-in-out;
+    
+}
+
+.franchising_text h2{
+    font-size: 18px;
+    font-family: "Manrope";
+    color: #5D5FEF;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.franchising_text h1{
+    font-size: 50px;
+    font-family: "Manrope";
+    font-weight: bold;
+    color: #19154E;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.franchising_text p{
+    font-size: 18px;
+    font-family: "Manrope";
+    color: #5B5E76;
+    line-height: 1.2rem;
+    padding-top: 1.2rem;
+    letter-spacing: 0.2px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.franchising_text span{
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    color: #6C0BDF;
+}
+
+.top-image2 img{
+    padding-top: 5rem;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.investing-section{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+   
+}
+
+// .invest{ 
+    
+// }
+
+.development-text{
+    margin-top: -5rem;
+}
+
+.invest h1{
+    font-size: 48px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    color: #02020f;
+    padding-top: 1rem;
+    letter-spacing: 0.8px;
+}
+
+
+
+.invest .my-header p{
+
+    font-size: 28px;
+    font-family: "Inter-placeholder";
+    color: #888888;
+    line-height: 2rem;
+    
+}
+
+.basket-section {
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #F6F4FF;
+    padding-bottom: 10rem;
+    margin-bottom: 5rem;
+
+    @keyframes slideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  }
+  
+  .basket-sport {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 15rem;
+  }
+  
+  .basket-images {
+    position: relative;
+    animation: slideUp 5s ease-in-out;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .basket-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 0px 0px 15px 0px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .basket-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .basket-image:hover {
+    transform: scale(1.3);
+  }
+  
+  .basket-image.large {
+    width: 150px;
+    height: 180px;
+  }
+  
+  .basket-image.small {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    // overflow: hidden;
+  }
+  
+  .basket-image.small.one {
+    top: 20px; 
+    left: 130px; 
+  }
+  
+  .basket-image.small.two {
+    top: 130px; 
+    right: -60px; 
+  }
+  
+  .basket-text {
+    max-width: 400px;
+    text-align: left;
+    margin-left: 2rem;
+    animation: slideUp 4s ease-in-out;
+  }
+  
+  .basket-text h1 {
+    font-size: 50px;
+    font-family: "Manrope";
+    font-weight: bold;
+    color: #19154E;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .basket-text h2 {
+    font-size: 18px;
+    font-family: "Manrope";
+    color: #5D5FEF;
+    padding-top: 0.5rem;
+    letter-spacing: 0.5px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .basket-text p {
+    font-size: 0.8rem;
+    color: #888888;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+.cars-section{
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    background: #ffffff;
+}
+
+.cars-container{
+    padding-left: 3.5rem;
+    padding-right: 8rem;
+    // padding-right: 150px;
+    // padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.care-one img{
+   width: 280px;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 25px;
+    
+}
+
+.care-two img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+.care-one h3{
+    padding-left: -0.5rem;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.care-one p{
+    font-size: 1rem;
+    font-family: "Manrope";
+    letter-spacing: 0.3px;
+    line-height: 1.4rem;
+    max-width: 300px;
+    color: #888888;
+    padding-bottom: 1.5rem;
+}
+
+.care-two h3{
+    padding-left: -0.5rem;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.care-two p{
+    font-size: 1rem;
+    font-family: "Manrope";
+    letter-spacing: 0.5px;
+    line-height: 1.4rem;
+    max-width: 500px;
+    color: #888888;
+    padding-bottom: 1.5rem;
+} 
+
+.partners-section {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5rem;
+
+    @keyframes slideUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+}
+
+.partners-text {
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.partners-text h2{
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    color: #5D5FEF;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+    
+}
+
+.partners-text h1{
+    font-size: 48px;
+    font-family: "Manrope";
+    font-weight: bold;
+    color: #19154E;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.partners-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    animation: slideUp 4s ease-in-out;
+    animation-delay: 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.partners-one {
+    border: solid 0.5px #ebebf5;
+    font-family: "Manrope", sans-serif;
+    margin-right: 0.5rem;
+    // top: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 0.8rem;
+    width: 600px;
+    height: 300px;
+    box-shadow: -8px -13px 182px -19px rgba(235, 226, 226, 0.75);
+    -webkit-box-shadow: -8px -13px 182px -19px rgba(235, 226, 226, 0.75);
+    -moz-box-shadow: -8px -13px 182px -19px rgba(235, 226, 226, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    // align-items: left;
+    text-align: left;
+
+}
+
+.partners-one .part-one {
+    margin-top: 1rem;
+    padding: 8px;
+    max-width: 600px;
+    max-height: 100px;
+    font-size: 16px;
+    color: #5B5E76;
+    font-family: "Manrope", sans-serif;
+}
+
+.partners-one .part-two {
+    margin-top: 5rem;
+    padding: 8px;
+    font-size: 12px;
+    font-family: "Manrope-placeholder";
+    font-weight: bold;
+    color: #000;
+}
+
+.partners-one span {
+    margin-top: -5rem;
+    font-size: 12px;
+    color: #5B5E76;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.financial-section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.financial-text{
+    text-align: center;
+}
+
+.financial-text h2{
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    color: #5D5FEF;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.financial-text h1{
+    font-size: 50px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    color: #19154E;
+    padding-top: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.financial-text p{
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        color: #5B5E76;
+        font-weight: bold;
+        line-height: 1.2rem;
+        padding-top: 1.2rem;
+        letter-spacing: 0.2px;
+}
+
+.pawapass-section{
+    padding-bottom: 1rem;
+    padding-right: 100px;
+    padding-left: 70px;
+}
+
+.pawapass-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pawa-one img{
+    position: relative;
+    width: 450px;
+    height: 600px;
+}
+
+.pawa-two img{
+    position: absolute;
+    margin-top: -23rem;
+    width: 190px;
+    height: 40px;
+    left: 4rem;
+}
+// .image-fond {
+//     width: 100%; 
+//     height: auto;
+//   }
+
+// .image-superposee {
+//     position: absolute; 
+//     top: 100px; 
+//     padding-left: 20px; 
+//     padding-right: 80px;
+//   }
+
+.pawapass-text {
+    padding-top: 8.5rem;
+    // padding-left: 160px;
+    // padding-right:160px;
+    text-align:left ;
+    font-size: 1rem;
+}
+
+.pawapass-text h1{
+    font-size: 50px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    color: #01010c;
+    padding-top: 1.2rem;
+    // letter-spacing: 0.5px;
+}
+
+.pawapass-text p{
+    font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        color: #5B5E76;
+        line-height: 1.5rem;
+        padding-top: 1.2rem;
+        letter-spacing: 0.5px;
+}
